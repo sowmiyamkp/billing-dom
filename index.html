@@ -1,0 +1,123 @@
+<!Doctypehtml>
+<html>
+<head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Billing</title>
+		<style>
+		.bill-container{
+			width:80%;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		
+			
+		}
+		
+		h2{
+		 text-align:center;
+		 margin-bottom:50px;
+		 color:#fa2d30;
+		}
+		
+		
+		
+		.bill-sec{
+		margin-top:50px;
+		background-color:#faf4b1;
+		}
+		
+		
+		
+		.bill-row{
+			
+			justify-content:center;
+			align-items:center;
+			margin:20px;
+			width:50%;
+		}
+		
+		
+		
+		.bill-row div{
+		margin:20px;
+		display:flex;
+			justify-content:space-between;
+			font-size:18px;
+			color:#2197eb;
+		}
+		
+		
+		
+		
+		
+		p{
+		text-align:center;
+		font-size:29px;
+		}
+		
+		</style>
+	</head>
+</head>
+<body>
+
+
+ 
+ <section class="bill-sec">
+   
+   
+  <div class="bill-container">
+     
+     		<div class="bill-row">
+			
+			
+				<h2>Bill Payment</h2>
+
+			
+ 
+			<div>
+				<label>Bill Amount</label>
+				<input id="bill"type="text"  placeholder="Bill amount">
+			</div>	
+  
+  
+		<div>
+			<label>Tips</label>
+			<input id="tips"type="text"  placeholder="amount">
+		</div>
+  
+  
+  
+		<div>
+			<label>RS</label>
+			<input id="rs" type="text"  placeholder="Rupees" disabled>
+		</div>
+  
+  
+  
+		<div>
+			<label>Total</label>
+			<input id="total-amt" type="text"  placeholder="Final-amt" disabled>
+		</div>
+  
+		<div>
+			<label>You Bill Amount Is</label>
+			<input id="total" type="text"  placeholder="Total-amount">
+		</div>
+		
+			<p>***</p>
+		
+  
+	</div>
+   </div>
+
+</section>
+
+
+ 
+  
+ <script src="main/main.js"></script>
+</body>
+</html>
